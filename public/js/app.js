@@ -1,4 +1,4 @@
-console.log('client side js is loaded')
+
 
 
 const weatherForm = document.querySelector('form')
