@@ -1,4 +1,3 @@
-
 //test
 
 const weatherForm = document.querySelector('form')
