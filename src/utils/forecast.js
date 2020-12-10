@@ -10,7 +10,7 @@ const forecast = (latitiude, longitude, callback) => {
             callback('unable to find location, try another')
 
         } else {
-            callback(undefined, body.current.weather_descriptions[0] + '. The current temparature is ' + body.current.temperature + ' degree celsius and the windspeed is ' + body.current.wind_speed + ' Km/hr.')
+            callback(undefined, body.current.weather_descriptions[0] + '. The current temparature is ' + body.current.temperature + ' degree celsius and the windspeed is ' + body.current.wind_speed + ' Km/hr. '+ 'The current visibility is '+ body.current.visibility+ ' Km.')
         }
     })
 }
